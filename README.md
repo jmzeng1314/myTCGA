@@ -1,9 +1,11 @@
 # myTCGA
 It's just a personal record for studying how to analysis TCGA data(expression+mutation+methylation+CNV)
 
-## mRNA-expression
+## expression
 
-### GSE62944
+### mRNA
+
+#### GSE62944
 
 I donwload the expression matrix from [GEO](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944) 
 
@@ -17,11 +19,10 @@ I donwload the expression matrix from [GEO](http://www.ncbi.nlm.nih.gov/geo/quer
 
 Then load these file into mysql by using R package(I'm not familar with SQL, so I choose R)
 
-### cbioportal(cgdsR)
 TODO
-### miRNA-expression 
+### miRNA 
 TODO
-### protaion-expression 
+### protaion 
 TODO
 ## mutation 
 TODO
@@ -29,5 +30,9 @@ TODO
 TODO
 ## methylation 
 TODO
+
+
+
 # combination 
 TODO
+## cbioportal(cgdsR)
